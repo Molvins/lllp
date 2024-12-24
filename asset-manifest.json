@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/lllp/static/css/main.2914ecfb.css",
+    "main.js": "/lllp/static/js/main.bef54400.js",
+    "static/js/488.e154313c.chunk.js": "/lllp/static/js/488.e154313c.chunk.js",
+    "static/media/hero-bg.jpg": "/lllp/static/media/hero-bg.79dda52a0f8c6275210b.jpg",
+    "static/media/LOGO 6.png": "/lllp/static/media/LOGO 6.35c981f94715051baf4b.png",
+    "index.html": "/lllp/index.html",
+    "main.2914ecfb.css.map": "/lllp/static/css/main.2914ecfb.css.map",
+    "main.bef54400.js.map": "/lllp/static/js/main.bef54400.js.map",
+    "488.e154313c.chunk.js.map": "/lllp/static/js/488.e154313c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2914ecfb.css",
+    "static/js/main.bef54400.js"
+  ]
+}
