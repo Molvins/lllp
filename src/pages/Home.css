@@ -1,0 +1,188 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #002147;
+}
+
+a:hover {
+  color: #00aaff;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #002147;
+  color: white;
+  display: flex;
+  justify-content: space-between; /* Space between logo and rest of the content */
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.navbar .logo img {
+  height: 120px; /* Smaller height for the logo */
+  width: auto; /* Maintain the aspect ratio */
+}
+
+.navbar .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-grow: 1; /* Takes remaining space */
+}
+
+.navbar .nav-links a {
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.navbar .nav-links a:hover {
+  background: #00aaff;
+  color: white;
+}
+
+/* Search Field */
+.search-field {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.search-field input {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.search-field button {
+  background: #00aaff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.search-field button:hover {
+  background: #0077cc;
+}
+
+
+.navbar .nav-links a:hover {
+  background: #00aaff;
+  color: white;
+}
+
+.navbar .logo {
+  flex-shrink: 0; /* Ensure the logo doesn't shrink */
+}
+
+
+.navbar .nav-links a:hover {
+  background: #00aaff; /* Highlight background */
+  color: white; /* Text color remains white */
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column; /* Stack buttons on smaller screens */
+    align-items: center; /* Center the buttons */
+  }
+
+  .nav-links a {
+    padding: 10px; /* Increase padding for easier clicking */
+    font-size: 1.1rem; /* Slightly larger text for mobile */
+  }
+}
+
+
+/* Hero Section */
+.hero {
+  height: 100vh; /* Full viewport height */
+  background: url('../images/hero-bg.jpg') center/cover no-repeat; /* Background image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.hero-content {
+  max-width: 800px;
+  max-height: fit-content;
+  
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.cta-button {
+  background: #00aaff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background: #0077cc;
+}
+
+
+/* Sections */
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.practice-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.practice-item {
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+  background: #002147;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+}
